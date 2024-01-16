@@ -1,0 +1,47 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #40e0d0; /* Turquoise background */
+    color: black; /* Text color */
+    font-weight: bold;
+    margin: 0;
+    padding: 20px; /* Adjust padding as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align to the left */
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.login-container {
+    text-align: left; /* Align elements to the left */
+}
+
+#username,
+#password,
+button {
+    width: calc(30% - 16px); /* Adjust the width as needed */
+    margin-bottom: 10px;
+    padding: 5px 5px; /* Adjust the padding for height */
+}
+
+button {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: calc(30% - 16px); /* Adjust the width as needed */
+    padding: 10px 10px; /* Adjust the padding for height */
+}
+
+button:hover {
+    background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red); /* Rainbow effect on hover */
+    color: white;
+}
